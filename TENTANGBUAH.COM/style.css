@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: cornsilk;
+}
+/* wrapper */
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+/* content */
+
+/* Header */
+header {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin: auto;
+  position: relative;
+}
+header img {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+}
+
+header .title {
+  border: tan dashed 3px;
+  border-radius: 4px;
+  margin: auto;
+  width: 100%;
+}
+
+header .title h1 {
+  padding-left: 0px;
+  font-size: 60px;
+  font-family: cursive;
+  color: cadetblue;
+  margin-left: 120px;
+}
+
+/* nav */
+nav {
+  background-color: darkcyan;
+  clear: both;
+  border-radius: 2px;
+}
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 10px;
+  padding-left: 0px;
+}
+
+nav ul li {
+  color: cadetblue;
+  background: navajowhite;
+  display: inline-block;
+  padding: 10px;
+  font-family: cursive;
+  font-size: 15px;
+  border: tan solid 2px;
+  border-radius: 2px;
+  position: relative;
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: cadetblue;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  background: tan;
+}
+
+nav ul li ul {
+  visibility: hidden;
+  position: absolute;
+  list-style: none;
+  margin-top: 0.8rem;
+  left: -1rem;
+  display: none;
+}
+
+nav ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+
+nav ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+/* section */
+
+section h2 {
+  padding: 0.5%;
+  border: tan dashed 2px;
+  border-radius: 5px;
+  margin-top: -10px;
+  font-family: cursive;
+  font-size: 35px;
+  color: darkslategray;
+}
+
+.bawah a {
+  text-decoration: none;
+  color: darkgoldenrod;
+  font-family: monospace;
+}
+
+p {
+  font-family: cursive;
+  border: tan solid 1px;
+}
+
+ol li {
+  font-family: cursive;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.bentuk {
+  font-family: cursive;
+}
+
+.warna {
+  background: teal;
+  color: bisque;
+}
+
+.huruf-tebal {
+  font-style: italic;
+}
+
+legend {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+select {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+option {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+label {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+input {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+/* footer */
+footer {
+  margin: 5%;
+  text-align: center;
+}
+/* for mobile */
+@media only screen and (max-width: 500px) {
+  header .title {
+    margin: auto;
+    width: 100%;
+    border: gray dashed 3px;
+    border-radius: 4px;
+  }
+
+  header .title h1 {
+    margin-left: 1%;
+    padding-left: 5px;
+    font-size: 170%;
+    font-family: cursive;
+    color: cadetblue;
+  }
+
+  header img {
+    width: 38px;
+    height: 38px;
+    margin-top: 3px;
+    margin-left: 20px;
+    float: left;
+  }
+
+  /* nav */
+  nav {
+    background-color: darkcyan;
+    clear: both;
+    border-radius: 2px;
+  }
+  nav a {
+    text-decoration: none;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 10px;
+    padding-left: 0px;
+  }
+
+  nav ul li {
+    color: cadetblue;
+    background: navajowhite;
+    display: inline-block;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 12px;
+    border: tan solid 2px;
+    border-radius: 2px;
+    position: relative;
+    text-decoration: none;
+  }
+
+  nav ul li a {
+    color: cadetblue;
+  }
+
+  nav ul li:hover {
+    cursor: pointer;
+    background: tan;
+  }
+
+  nav ul li ul {
+    visibility: hidden;
+    position: absolute;
+    list-style: none;
+    margin-top: 0.8rem;
+    left: -1rem;
+    display: none;
+  }
+
+  nav ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    display: block;
+  }
+
+  nav ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+
+  /* section */
+
+  section h2 {
+    padding: 0.5%;
+    border: tan dashed 2px;
+    border-radius: 5px;
+    margin-top: -5px;
+    font-family: cursive;
+    font-size: 20px;
+    color: darkslategray;
+  }
+
+  .bawah a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-family: monospace;
+  }
+
+  section img {
+    width: 50%;
+    height: 50%;
+  }
+
+  p {
+    font-family: cursive;
+    font-size: 12px;
+    border: tan solid 1px;
+  }
+
+  ol li {
+    font-family: cursive;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .bentuk {
+    font-family: cursive;
+  }
+
+  .warna {
+    background: teal;
+    color: bisque;
+  }
+
+  .huruf-tebal {
+    font-style: italic;
+  }
+
+  legend {
+    font-family: monospace;
+    font-size: 10px;
+  }
+
+  select {
+    font-family: monospace;
+    font-size: 10px;
+  }
+
+  option {
+    font-family: monospace;
+    font-size: 10px;
+  }
+
+  label {
+    font-family: monospace;
+    font-size: 10px;
+  }
+
+  input {
+    font-family: monospace;
+    font-size: 10px;
+  }
+  
+  table{
+    font-family: cursive;
+    font-size: 13px;
+  }
